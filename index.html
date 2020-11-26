@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>Camera - Sample</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="script.js">
+    </script>
+</head>
+<body>
+
+<div class="contentarea">
+    <h1>Camera</h1>
+
+    <div>
+        <div id="instructions">
+            Click the <i class="fas fa-camera"></i> icon to take a picture, and it will appear in the box in the right.
+        </div>
+
+        <div class="smartphone">
+            <video id="video">Video stream not available.</video>
+            <button id="startbutton">
+                <i class="fas fa-camera fa-4x"></i>
+            </button>
+        </div>
+
+        <canvas id="canvas">
+        </canvas>
+
+        <div class="output">
+            <img id="photo" alt="The screen capture will appear in this box.">
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
