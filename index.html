@@ -15,7 +15,8 @@
 
     <div>
         <div id="instructions">
-            Click the <i class="fas fa-camera"></i> icon to take a picture, and it will appear in the box in the right.
+            Click the <i class="fas fa-camera"></i> button to take a picture, or choose one from the file
+            explorer/camera roll.
         </div>
 
         <div class="smartphone">
@@ -27,6 +28,12 @@
 
         <canvas id="canvas">
         </canvas>
+
+        <!-- Mobile camera only -->
+<!--        <input type="file" accept="image/*" capture="camera"/>-->
+
+        <!-- Mobile file system + camera -->
+        <input id="input" type="file" accept="image/*"/>
 
         <div class="output">
             <img id="photo" alt="The screen capture will appear in this box.">

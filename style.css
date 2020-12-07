@@ -60,10 +60,10 @@
 }
 
 #photo {
-    width: 320px;
-    height: 240px;
-    margin-left: 50px;
+    /*width: 320px;*/
+    /*height: 240px;*/
     border: 1px solid black;
+    display: none;
 }
 
 #canvas {
@@ -75,9 +75,15 @@
     display: inline-block;
 }
 
+#input {
+    margin-left: 50px;
+    vertical-align: top;
+}
+
 .output {
     width: 340px;
     height: 10%;
+    margin-left: 50px;
     display: inline;
 }
 
